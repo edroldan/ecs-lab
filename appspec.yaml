@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: ecs_lab
+        TaskDefinition: ecs-lab
         LoadBalancerInfo:
           ContainerName: "sample-website"
           ContainerPort: 80
